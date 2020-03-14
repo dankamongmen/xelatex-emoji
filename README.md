@@ -2,7 +2,7 @@
 Emoji support for XeLaTeX documents
 
 ## Installation
-Clone this repo into your [`texmf` folder](https://en.wikibooks.org/wiki/LaTeX/Installing_Extra_Packages) or to the project folder. Clone emoji images named after the utf8 code - I recommend [EmojiOne](https://github.com/Ranks/emojione).
+Clone this repo into your [`texmf` folder](https://en.wikibooks.org/wiki/LaTeX/Installing_Extra_Packages) or to the project folder. Clone emoji images named after the utf8 code - I recommend [JoyPixels](https://github.com/joypixels/emoji-toolkit).
 
 Note: Tex doesn't natively support SVG, so if you download the vector emojis, you can convert them to PDFs with the following command on Mac and Linux: (assumes you have installed the librsvg2-bin package in Linux)
 
@@ -41,7 +41,7 @@ Use the `xelatexemoji` package. Enjoy :)
 \end{document}
 ```
 
-yields (using the great [EmojiOne](https://github.com/Ranks/emojione) images)
+yields (using the great [JoyPixels](https://github.com/joypixels/emoji-toolkit) images)
 
 ![example result](example/example.png)
 
